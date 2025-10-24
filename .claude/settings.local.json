@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip --version:*)",
+      "Bash(where:*)",
+      "Bash(winget install:*)",
+      "Bash(pip install:*)",
+      "Bash(python -c:*)",
+      "Bash(pip uninstall:*)",
+      "Bash(python:*)",
+      "Bash(curl:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
